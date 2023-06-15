@@ -1,7 +1,7 @@
 <?php
 // Informações de conexão com o banco de dados
 $host = 'localhost';
-$dbname = 'mudea';
+$dbname = 'muda';
 $usuario = 'root';
 $senha = '';
 
@@ -10,7 +10,7 @@ try {
     $conexao = new PDO("mysql:host=$host;dbname=$dbname", $usuario, $senha);
     $conexao->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
-    echo "Erro na conexão com o banco de dados: " . $e->getMessage();
+    echo "<script>alert('Erro ao cadastrar E-mail');</script>";
     exit();
 }
 
@@ -38,9 +38,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $stmt = $conexao->prepare($sql);
         $stmt->execute([$email]);
 
-        echo "E-mail salvo no banco de dados com sucesso!";
+        echo "<script>alert('E-mail salvo no banco de dados com sucesso!');</script>";
     } catch (PDOException $e) {
-        echo "Erro ao salvar o e-mail no banco de dados: " . $e->getMessage();
+        echo "<script>alert('Erro ao cadastrar E-mail');</script>";
     }
 }
 ?>

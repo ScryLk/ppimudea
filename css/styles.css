@@ -91,6 +91,7 @@
   }
 }
 
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -338,6 +339,7 @@ button {
 button:focus:not(:focus-visible) {
   outline: 0;
 }
+
 
 input,
 button,
@@ -1972,7 +1974,7 @@ progress {
 .form-control {
   display: block;
   width: 100%;
-  padding: 0.375rem 0.75rem;
+  padding: 0.500rem 0.75rem;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -10756,6 +10758,7 @@ video.bg-video {
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 .masthead:before {
   content: "";
