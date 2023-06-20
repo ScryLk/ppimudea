@@ -1,0 +1,27 @@
+body {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: #2a5555;
+}
+
+.inicio {
+  position: fixed;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.inicio-conteudo {
+  position: relative;
+  max-width: 40vw;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  padding-right: 9vw;
+  color: white;
+}
+
+

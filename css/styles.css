@@ -10764,6 +10764,7 @@ video.bg-video {
   max-width: 180px;
 }
 
+
 .form__field {
   font-family: inherit;
   width: 450px;
@@ -10781,6 +10782,25 @@ video.bg-video {
   color: transparent;
 }
 
+.input-style {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #555;
+  outline: none;
+  width: 450px;
+}
+
+.input-style:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+
+
+
+
 .form__field:placeholder-shown ~ .form__label {
   font-size: 17px;
   cursor: text;
@@ -10793,7 +10813,7 @@ video.bg-video {
   display: block;
   transition: 0.2s;
   font-size: 17px;
-  color: #9b9b9b;
+  color: green;
   pointer-events: none;
 }
 
@@ -10854,4 +10874,9 @@ p {
 span {
   color: black;
   width: 100px;
+}
+
+p {
+  text-align: justify;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

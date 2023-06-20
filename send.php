@@ -15,13 +15,11 @@
             <form action="processar_formulario.php" method="POST">    
               <p>Insira seu e-mail para ficar por dentro das atualizações!</p>           
                <div class="form__group field">
-                <input type="input" name="email" id="email" class="form__field" placeholder="Name" required="">
-                <label  class="form__label">Email</label><br>
+                <input placeholder="E-mail" name="email"class="input-style" type="text">
+                <label  class="form__label"></label><br>
                 <button class="send" type="submit">Me notifique</button><br>
-                </div>
-              
-              </div>
-              
+                </div>   
+              </div>    
             </form>
           </div>
         <div id="carouselExampleIndicators" class="carousel slide">
@@ -51,7 +49,6 @@
         </button>
         </div>
       </div>
-    </div>
-      
+    </div>   
   </body>
 </html>
