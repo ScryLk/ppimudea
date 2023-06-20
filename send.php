@@ -14,11 +14,14 @@
           <h1>Tudo sobre a sua saúde na palma da sua mão</h1>
             <form action="processar_formulario.php" method="POST">    
               <p>Insira seu e-mail para ficar por dentro das atualizações!</p>           
-                <div class="input-group mb-3"> 
-                  <input class="form-control" type="email" name="email" placeholder="E-mail">
-                  <button class="btn btn-success" type="submit" value="enviar">Me notifique!</button>
+               <div class="form__group field">
+                <input type="input" name="email" id="email" class="form__field" placeholder="Name" required="">
+                <label  class="form__label">Email</label><br>
+                <button class="send" type="submit">Me notifique</button><br>
                 </div>
+              
               </div>
+              
             </form>
           </div>
         <div id="carouselExampleIndicators" class="carousel slide">
