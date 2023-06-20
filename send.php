@@ -10,16 +10,18 @@
     <div class="spacing" >
       <div class="inicio">
         <div class="inicio-conteudo" >
-          <h2>Tudo sobre a sua saúde na palma da sua mão</h2>
-            <form action="processar_formulario.php" method="POST">
-              <p>Insira seu e-mail para ficar por dentro das atualizações!</p>
-                <div class="input-group mb-3">
-                  <input class="form-control" type="text" name="email" placeholder="E-mail">
+        <div class="flexcontainer">
+          <h2><p>Tudo sobre a sua saúde na palma da sua mão</h2>
+            <form action="processar_formulario.php" method="POST">    
+              <p>Insira seu e-mail para ficar por dentro das atualizações!</p>           
+                <div class="input-group mb-3">      
+                  <input class="form-control" type="email" name="email" placeholder="E-mail">
                   <button class="btn btn-success" type="submit" value="enviar">Me notifique!</button>
                 </div>
+              </div>
             </form>
-      </div>
-      <div id="carouselExampleIndicators" class="carousel slide">
+          </div>
+        <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
