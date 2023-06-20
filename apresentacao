@@ -6,12 +6,14 @@ body {
 }
 
 .inicio {
-  position: relative;
+  position: fixed;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+
 
 .inicio-conteudo {
   position: relative;

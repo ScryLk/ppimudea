@@ -7,20 +7,46 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
-    <div class="inicio">
-      <div class="inicio-conteudo" >
-        <h2>Tudo sobre a sua saúde na palma da sua mão</h2>
-          <form action="processar_formulario.php" method="POST">
-            <p>Insira seu e-mail para ficar por dentro das atualizações!</p>
-              <div class="input-group mb-3">
-              <input class="form-control" type="text" name="email" placeholder="E-mail">
-                <button class="btn btn-success" type="submit" value="enviar">Me notifique!</button>
-            </div>
-          </form>
+    <div class="spacing" >
+      <div class="inicio">
+        <div class="inicio-conteudo" >
+          <h2>Tudo sobre a sua saúde na palma da sua mão</h2>
+            <form action="processar_formulario.php" method="POST">
+              <p>Insira seu e-mail para ficar por dentro das atualizações!</p>
+                <div class="input-group mb-3">
+                  <input class="form-control" type="text" name="email" placeholder="E-mail">
+                  <button class="btn btn-success" type="submit" value="enviar">Me notifique!</button>
+                </div>
+            </form>
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="container-image">
-          <img src="src/frames/image1.png" alt="Imagem" >
+        <div class="carousel-inner" style="max-width: 551px; height: 540px">
+          <div class="carousel-item active" data-ride="carousel">
+            <img src="src/frames/image1.png" alt="Imagem" >
+          </div>
+          <div class="carousel-item">
+            <img src="src/frames/image3.png" alt="Imagem" >
+          </div>
+          <div class="carousel-item">
+            <img src="src/frames/image1.png" alt="Imagem" >
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
         </div>
       </div>
-    </body>
-  </html>
+    </div>
+      
+  </body>
+</html>

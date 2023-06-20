@@ -5665,7 +5665,8 @@ textarea.form-control-lg {
   position: relative;
   display: none;
   float: left;
-  width: 100%;
+
+
   margin-right: -100%;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -5674,6 +5675,7 @@ textarea.form-control-lg {
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {
     transition: none;
+
   }
 }
 
@@ -5697,6 +5699,7 @@ textarea.form-control-lg {
   opacity: 0;
   transition-property: opacity;
   transform: none;
+
 }
 .carousel-fade .carousel-item.active,
 .carousel-fade .carousel-item-next.carousel-item-start,
@@ -10681,6 +10684,11 @@ html {
   height: 100%;
 }
 
+.content {
+  position: relative;
+  background-color: whi;
+}
+
 
 
 
@@ -10705,27 +10713,36 @@ video.bg-video {
 }
 
 @media (pointer: coarse) and (hover: none) {
- 
 
 }
+
+.spacing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+  gap: 10;
+  padding: 2%;
+}
+
 .inicio {
-  position: relative;
   overflow: hidden;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   height: 100%;
-  width: 75vw;
+  width: 100vw;
 }
 .inicio-conteudo {
   position: relative;
+  display: block;
   max-width: 40vw;
   padding-top: 5vw;
   padding-bottom: 5vw;
   padding-right: 9vw;
   color: white;
 }
-
 
 
 
