@@ -7,8 +7,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
-    <div class="masthead">
-      <div class="masthead-content text-white" >
+    <div class="inicio">
+      <div class="inicio-conteudo" >
         <h2>Tudo sobre a sua saúde na palma da sua mão</h2>
           <form action="processar_formulario.php" method="POST">
             <p>Insira seu e-mail para ficar por dentro das atualizações!</p>
@@ -19,7 +19,7 @@
           </form>
         </div>
         <div class="container-image">
-          <img src="src/frames/frame5.png" alt="Imagem" >
+          <img src="src/frames/image1.png" alt="Imagem" >
         </div>
       </div>
     </body>
