@@ -11,10 +11,10 @@
       <div class="inicio">
         <div class="inicio-conteudo" >
         <div class="flexcontainer">
-          <h2><p>Tudo sobre a sua saúde na palma da sua mão</h2>
+          <h1>Tudo sobre a sua saúde na palma da sua mão</h1>
             <form action="processar_formulario.php" method="POST">    
               <p>Insira seu e-mail para ficar por dentro das atualizações!</p>           
-                <div class="input-group mb-3">      
+                <div class="input-group mb-3"> 
                   <input class="form-control" type="email" name="email" placeholder="E-mail">
                   <button class="btn btn-success" type="submit" value="enviar">Me notifique!</button>
                 </div>
